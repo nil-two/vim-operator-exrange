@@ -1,0 +1,48 @@
+*operator-exrange.txt*	Process rows with Ex command
+
+Version: 0.1.0
+Author : kusabashira <kusabashira227@gmail.com>
+License: MIT License
+
+==============================================================================
+CONTENTS					*operator-exrange-contents*
+
+INTRODUCTION		|operator-exrange-introduction|
+INTERFACE		|operator-exrange-interface|
+  KEY MAPPINGS		  |operator-exrange-key-mappings|
+CHANGELOG		|operator-exrange-changelog|
+
+
+==============================================================================
+INTRODUCTION					*operator-exrange-introduction*
+
+*operator-exrange* is a Vim plugin which provides a way
+to process rows with Ex command.
+
+Requirements:
+- Vim 8.0 or later
+
+Latest version:
+https://github.com/kusabashira/vim-operator-exrange
+
+
+==============================================================================
+INTERFACE					*operator-exrange-interface*
+
+------------------------------------------------------------------------------
+KEY MAPPINGS					*operator-exrange-key-mappings*
+
+<Plug>(operator-exrange)			*<Plug>(operator-exrange)*
+		Receive a range by text object or motion.
+		And starts Ex mode with :'<,'> entered.
+
+
+==============================================================================
+CHANGELOG					*operator-exrange-changelog*
+
+0.1.0	2017-06-05
+	- Initial version.
+
+
+==============================================================================
+vim:tw=78:fo=tcq2mM:ts=8:ft=help:norl
